@@ -2,7 +2,7 @@
   "name": "markdown-code-copy-button",
   "displayName": "Markdown Code Copy Button",
   "description": "Adds copy to clipboard button to code blocks preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "barnim",
   "engines": {
     "vscode": "^1.103.0"
