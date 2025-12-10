@@ -1,0 +1,48 @@
+{
+  "name": "markdown-code-copy-button",
+  "displayName": "Markdown Code Copy Button",
+  "description": "Adds copy to clipboard button to code blocks preview",
+  "version": "0.0.1",
+  "publisher": "barnim",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "author": "barnim",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "activationEvents": [
+    "onLanguage:markdown",
+    "onWebviewPanel:markdown.preview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barnim/vscode-ext-markdown-code-copy-button.git"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "markdown.previewScripts": [
+      "./media/main.js"
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "1.103.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.48.1",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
