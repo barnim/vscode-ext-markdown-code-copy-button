@@ -2,7 +2,7 @@
 
 Adds a GitHub-like copy button to every fenced code block inside the VS Code Markdown preview.
 
-![Markdown Code Copy Button preview](media\vscode-ext-markdown-copy-button-example-arrow.png)
+![Markdown Code Copy Button preview](media/vscode-ext-markdown-copy-button-example-arrow.png)
 
 ## Features
 
