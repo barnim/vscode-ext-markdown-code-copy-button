@@ -2,7 +2,7 @@
   "name": "markdown-code-copy-button",
   "displayName": "Markdown Code Copy Button",
   "description": "Adds copy to clipboard button to code blocks preview",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "barnim",
   "engines": {
     "vscode": "^1.103.0"
@@ -44,5 +44,21 @@
     "typescript": "^5.9.3",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
+  },
+  "homepage": "https://github.com/barnim/vscode-ext-markdown-code-copy-button#readme",
+  "bugs": {
+    "url": "https://github.com/barnim/vscode-ext-markdown-code-copy-button/issues"
+  },
+  "keywords": [
+    "markdown",
+    "copy",
+    "clipboard",
+    "code",
+    "preview",
+    "button"
+  ],
+  "galleryBanner": {
+    "color": "#1f2428",
+    "theme": "dark"
   }
 }

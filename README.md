@@ -2,6 +2,8 @@
 
 Adds a GitHub-like copy button to every fenced code block inside the VS Code Markdown preview.
 
+![Markdown Code Copy Button preview](media\vscode-ext-markdown-copy-button-example-arrow.png)
+
 ## Features
 
 - Hover any ```code``` block in the Markdown preview to reveal a copy button in the top-right corner.
@@ -28,6 +30,12 @@ That's it—no extra configuration required.
 - Press `F5` in VS Code to launch an Extension Development Host and test the Markdown preview.
 
 ## Release Notes
+
+### 0.1.0
+
+- Marketplace metadata (homepage, bugs URL, keywords and gallery banner) added.
+- README now includes a screenshot of the copy button experience.
+- Added an activation smoke test that runs with `npm test`.
 
 ### 0.0.1
 
