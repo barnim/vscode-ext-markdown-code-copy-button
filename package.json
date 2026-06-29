@@ -22,6 +22,7 @@
     "url": "https://github.com/barnim/vscode-ext-markdown-code-copy-button.git"
   },
   "main": "./out/extension.js",
+  "browser": "./out/extension.js",
   "contributes": {
     "markdown.previewScripts": [
       "./media/main.js"
